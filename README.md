@@ -1,6 +1,18 @@
 # GitHub-guidance
 Guidance for AU-BCE-EE members
 
+# Creating a new repo
+## Repo access
+New repos should generally be created as *private*, and then shared with the public by changing to *public* later.
+All AU-BCE-EE members have view access to all AU-BCE-EE repositories and owners have write access.
+Regardless of whether you are working with owners or other members, it probably makes sense to explicitly add repo collaborators.
+
+| Person status | Read access | Write access|
+|---------------|-------------|-------------|
+| AU-BCE-EE owner | Always    | Always      |
+| AU-BCE-EE member | Always    | If added   |
+| Public        | If repo is public | If added |
+
 # Changing a repo name
 It is common to change a repo name at some point after creating it.
 Repo owners can change the name of a repo through the Settings option that can be found near the top of the repo main page:
