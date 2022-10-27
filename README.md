@@ -21,4 +21,6 @@ You can confirm this under the Repository menu (see Repository settings).
 
 ![image](https://user-images.githubusercontent.com/35272876/198268474-33f59ddc-42a2-47e1-a35c-96fd2bc57369.png)
 
+To change the name of your local folder that stores your repo files (not necessary, but probably smart), the easiest option seems to be to simply clone the repo from GitHub again.
+
 
