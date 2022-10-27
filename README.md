@@ -15,3 +15,10 @@ $ git remote set-url origin NEW_URL
 ```
 
 For more details see this GitHub page: <https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository>
+
+Apparently the Windows GitHub Desktop interface automatically updates the URL after making a change through GitHub online!
+You can confirm this under the Repository menu (see Repository settings).
+
+![image](https://user-images.githubusercontent.com/35272876/198268474-33f59ddc-42a2-47e1-a35c-96fd2bc57369.png)
+
+
