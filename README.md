@@ -29,7 +29,7 @@ You can actually create a new repo directly from it with the "Use this template"
 
 See the [README.md file](https://github.com/sashahafner/R-template/blob/main/README.md) for more information.
 
-For sharing datasets, you can find an example structure in the [BMP-kinetics-paper-2022](https://github.com/sashahafner/BMP-kinetics-paper-2022).
+For sharing datasets, you can find an example structure in the [BMP-kinetics-paper-2022 repo](https://github.com/sashahafner/BMP-kinetics-paper-2022).
 Text files are probably best (comma-delimited, or "csv" are convenient) and variables should be defined, e.g., in README.md.
 
 # Changing a repo name
