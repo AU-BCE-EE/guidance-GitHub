@@ -1,6 +1,9 @@
 # GitHub-guidance
 Guidance for use of AU-BCE-EE account for members
 
+# Getting help
+AU-BCE-EE members can always get help by sending a message to the "admin" team or any member here or by email: <https://github.com/orgs/AU-BCE-EE/teams/admin>.
+
 # Creating a new repo
 ## Repo name
 Our current convention is `Lastname-year-topic`, using the last name of the first author or main contributor and the year that the work was released. 
@@ -20,7 +23,7 @@ See the table below for more information.
 | Everyone else      | If repo is *public* or if user is added | If added    |
 
 But note that any AU-BCE-EE member can create new repos and give themselves and others access (read or write). 
-In the table above "added" means a user has been added as a collaborator to a repo by an AU-BCE-EE owner (reach the owners through the team name @AU-BCE-EE/admin) or anyone with admin access to the repo.
+In the table above "added" means a user has been added as a collaborator to a repo by an AU-BCE-EE owner (reach the owners through the team name [@AU-BCE-EE/admin](https://github.com/orgs/AU-BCE-EE/teams/admin)) or anyone with admin access to the repo.
 
 ## File organization
 Development of templates (or at least more detailed guidelines) is an important task that many of us members will need to contribute to in the coming months.
