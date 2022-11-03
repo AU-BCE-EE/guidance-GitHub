@@ -16,8 +16,10 @@ See the table below for more information.
 | Person status      | Read access         | Write access|
 |---------------     |-------------        |-------------|
 | AU-BCE-EE *owner*  | Always              | Always      |
-| AU-BCE-EE *member* | Always              | If added    |
-| Everyone else      | If repo is *public* | If added    |
+| AU-BCE-EE *member* | If repo is *public* or if user is added | If added    |
+| Everyone else      | If repo is *public* or if user is added | If added    |
+
+But note that any AU-BCE-EE member can create new repos and give themselves and others access (read or write). 
 
 ## File organization
 Development of templates (or at least more detailed guidelines) is an important task that many of us members will need to contribute to in the coming months.
