@@ -38,6 +38,11 @@ See the [README.md file](https://github.com/sashahafner/R-template/blob/main/REA
 For sharing datasets, you can find an example structure in the [BMP-kinetics-paper-2022 repo](https://github.com/sashahafner/BMP-kinetics-paper-2022).
 Text files are probably best (comma-delimited, or "csv" are convenient) and variables should be defined, e.g., in README.md.
 
+# Using a repo
+## Issues
+Use GitHub issues through the "Issues" page for each repo to document and discuss any type of issue related to a repo you contribute to.
+Visibility of issues follows the repo in general but it is good practice to think of ddiscussion under issues as public.
+
 # Changing a repo name
 It is common to change a repo name at some point after creating it.
 Repo owners can change the name of a repo through the Settings option that can be found near the top of the repo main page:
