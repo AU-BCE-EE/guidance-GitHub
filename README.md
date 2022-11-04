@@ -2,7 +2,8 @@
 Guidance for use of AU-BCE-EE account for members
 
 # Getting help
-AU-BCE-EE members can always get help by sending a message to the "admin" team or any member here or by email: <https://github.com/orgs/AU-BCE-EE/teams/admin>.
+AU-BCE-EE members can always get help by sending a message to the "admin" team or any member by email: <https://github.com/orgs/AU-BCE-EE/teams/admin>.
+Email [Sasha](mailto:sasha.hafner@bce.au.dk) or other team members or send a notification to the admin team by "mentioning" `@AU-BCE-EE/Admin` in any issue or discussion.
 
 # Creating a new repo
 ## Repo name
