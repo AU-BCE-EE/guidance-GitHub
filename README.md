@@ -7,7 +7,7 @@ Email [Sasha](mailto:sasha.hafner@bce.au.dk) or other team members or send a not
 
 # Members
 Current (14 November 2022) members of this account are listed below.
-You can add any member to a repo using their user name.
+You can add any member to a repo using their user name, or add everyone by adding the team "members".
 
 | Name                   | User name       |
 |--------                |-----------      |
