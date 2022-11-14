@@ -5,6 +5,20 @@ Guidance for use of AU-BCE-EE account for members
 AU-BCE-EE members can always get help by sending a message to the "admin" team or any member by email: <https://github.com/orgs/AU-BCE-EE/teams/admin>.
 Email [Sasha](mailto:sasha.hafner@bce.au.dk) or other team members or send a notification to the admin team by "mentioning" `@AU-BCE-EE/Admin` in any issue or discussion.
 
+# Members
+Current (14 November 2022) members of this account are listed below.
+You can add any member to a repo using their user name.
+
+| Name                   | User name       |
+|--------                |-----------      |
+| Johanna Pedersen       | JohannaPedersen |
+| Jesper Nørlem Kamp     | J-Kamp          |
+| Frederik Dalby         | fdalby          |
+| Yolanda Lemes Perschke | YoLemes         |
+| Sasha D. Hafner        | sashahafner     |
+
+You can tag all members using `@AU-BCE-EE/members` in any issue or discussion.
+
 # Creating a new repo
 ## Repo name
 Our current convention is `Lastname-year-topic`, using the last name of the first author or main contributor and the year that the work was released. 
