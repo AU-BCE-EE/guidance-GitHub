@@ -15,6 +15,7 @@ You can add any member to a repo using their user name, or add everyone by addin
 | Jesper Nørlem Kamp     | J-Kamp          |
 | Frederik Dalby         | fdalby          |
 | Yolanda Lemes Perschke | YoLemes         |
+| Anders Feilberg        | afeilberg       |
 | Sasha D. Hafner        | sashahafner     |
 
 You can tag all members using `@AU-BCE-EE/members` in any issue or discussion.
