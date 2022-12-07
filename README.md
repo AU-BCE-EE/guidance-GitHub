@@ -1,12 +1,15 @@
 # GitHub-guidance
 Guidance for use of AU-BCE-EE account for members
 
+# Maintainer
+Sasha D. Hafner.
+
 # Getting help
 AU-BCE-EE members can always get help by sending a message to the "admin" team or any member by email: <https://github.com/orgs/AU-BCE-EE/teams/admin>.
 Email [Sasha](mailto:sasha.hafner@bce.au.dk) or other team members or send a notification to the admin team by "mentioning" `@AU-BCE-EE/Admin` in any issue or discussion.
 
 # Members
-Current (14 November 2022) members of this account are listed below.
+Current (7 December 2022) members of this account are listed below.
 You can add any member to a repo using their user name, or add everyone by adding the team "members".
 
 | Name                   | User name       |
@@ -27,19 +30,26 @@ For example: [Pedersen-2022-dynamic-chambers](https://github.com/AU-BCE-EE/Peder
 You can always change the name later (see section on this topic below).
 
 ## Repo access
-New repos should generally be created as *private*, and then shared with the public by changing to *public* later.
-All AU-BCE-EE members have view access to all AU-BCE-EE repositories and owners have write access.
-Regardless of whether you are working with owners or other members, it probably makes sense to explicitly add repo collaborators.
+New repos should generally be created as *private*, and then shared with the public by changing to *public* later (if appropriate--not all repos will ultimately be made public).
+AU-BCE-EE members only have access to public AU-BCE-EE repos or repos they have been granted access to. 
+AU-BCE-EE owners have write (really admin) access to all of this account's repos.
+Regardless of whether you are working with owners or other members, it makes sense to explicitly add repo collaborators.
 See the table below for more information.
 
 | Person status      | Read access         | Write access|
 |---------------     |-------------        |-------------|
 | AU-BCE-EE *owner*  | Always              | Always      |
-| AU-BCE-EE *member* | If repo is *public* or if user is added | If added    |
+| AU-BCE-EE *member* | If repo is *public* or if user is added or if member created repo | If added or if member created repo   |
 | Everyone else      | If repo is *public* or if user is added | If added    |
 
-But note that any AU-BCE-EE member can create new repos and give themselves and others access (read or write). 
-In the table above "added" means a user has been added as a collaborator to a repo by an AU-BCE-EE owner (reach the owners through the team name [@AU-BCE-EE/admin](https://github.com/orgs/AU-BCE-EE/teams/admin)) or anyone with admin access to the repo.
+Any AU-BCE-EE member can create new repos and give themselves and others access (read or write). 
+In the table above "added" means a user has been added as a collaborator to a repo by an AU-BCE-EE owner (reach the owners through the team name [@AU-BCE-EE/admin](https://github.com/orgs/AU-BCE-EE/teams/admin)) or anyone with admin access to the repo (e.g., any member who creates a repo).
+(Note that this default behavior of no access to private repos by members can be changed.
+We (owners) have taken a conservative approach for now at least.)
+
+To grant someone access, click "Settings" at the top right of a repo page, and then "Access":
+
+![image](https://user-images.githubusercontent.com/35272876/206227003-3fdc3dd5-641d-4fcd-845f-54e0d67888b3.png)
 
 ## File organization
 Development of templates (or at least more detailed guidelines) is an important task that many of us members will need to contribute to in the coming months.
