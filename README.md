@@ -65,9 +65,20 @@ For sharing datasets, you can find an example structure in the [BMP-kinetics-pap
 Text files are probably best (comma-delimited, or "csv" are convenient) and variables should be defined, e.g., in README.md.
 
 # Using a repo
-## Issues
-Use GitHub issues through the "Issues" page for each repo to document and discuss any type of issue related to a repo you contribute to.
-Visibility of issues follows the repo in general but it is good practice to think of ddiscussion under issues as public.
+## Issues and Discussion
+Use GitHub issues through the "Issues" page for each repo to document and discuss any type of problem related to a repo you contribute to.
+The basic idea (remember the code development roots of GitHub) is that an issue is identified, documented, and progress on addressing it is documented all under an issue.
+You can tag contributors with "@", other issues with "#", and commits with the hash. 
+Visibility of issues follows the repo in general but **it is good practice to think of discussion under issues as public**.
+Why use GitHub Issues when you can just send a message by email or Teams?
+Here are some reasons:
+
+* Issues don't disappear or get lost, so you can add an issue and come back to it months later
+* Issues provide a record of discussion and decisions, so repo creators can remember (and anyone can understand) why something was done a particular way 
+* Tasks can be assigned to particular people 
+
+GitHub has something called "Discussions" which is similar to Issues but more for topics that don't really describe problems that need to be addressed.
+Discussions need to be turned on for each repo for use.
 
 # Changing a repo name
 It is common to change a repo name at some point after creating it.
