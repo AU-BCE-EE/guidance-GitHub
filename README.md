@@ -64,8 +64,7 @@ See the [README.md file](https://github.com/sashahafner/R-template/blob/main/REA
 For sharing datasets, you can find an example structure in the [BMP-kinetics-paper-2022 repo](https://github.com/sashahafner/BMP-kinetics-paper-2022).
 Text files are probably best (comma-delimited, or "csv" are convenient) and variables should be defined, e.g., in README.md.
 
-# Using a repo
-## Issues and Discussion
+# Issues and Discussion
 Use GitHub issues through the "Issues" page for each repo to document and discuss any type of problem related to a repo you contribute to.
 The basic idea (remember the code development roots of GitHub) is that an issue is identified, documented, and progress on addressing it is documented all under an issue.
 You can tag contributors with "@", other issues with "#", and commits with the hash. 
@@ -101,5 +100,10 @@ You can confirm this under the Repository menu (see Repository settings).
 ![image](https://user-images.githubusercontent.com/35272876/198268474-33f59ddc-42a2-47e1-a35c-96fd2bc57369.png)
 
 To change the name of your local folder that stores your repo files (not necessary, but probably smart), the easiest option seems to be to simply delete the local directory used by Git and clone the repo from GitHub again.
+
+# Removing all traces of a file (purging)
+Sometimes we make a mistake and include a file with sensitive information.
+Even if it is removed in a following commit, the file can be found within the commit history.
+Follow the instructions here to completely remove it: <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository>
 
 
