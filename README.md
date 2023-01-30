@@ -80,7 +80,7 @@ Here are some reasons:
 GitHub has something called "Discussions" which is similar to Issues but more for topics that don't really describe problems that need to be addressed.
 Discussions need to be turned on for each repo for use.
 
-# Changing a repo name
+# Changing a repo name (moving a repo)
 It is common to change a repo name at some point after creating it.
 Repo owners can change the name of a repo through the Settings option that can be found near the top of the repo main page:
 
