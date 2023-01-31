@@ -116,4 +116,4 @@ It may be necessary to run GitHub as an administrator to avoid problems accessin
 
 More info here <https://www.windowscentral.com/how-set-apps-always-run-administrator-windows-10> and elsewhere online.
 
-
+See [issue #2](https://github.com/AU-BCE-EE/GitHub-guidance/issues/2) for discussion.
