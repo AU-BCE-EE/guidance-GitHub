@@ -104,6 +104,16 @@ To change the name of your local folder that stores your repo files (not necessa
 # Removing all traces of a file (purging)
 Sometimes we make a mistake and include a file with sensitive information.
 Even if it is removed in a following commit, the file can be found within the commit history.
-Follow the instructions here to completely remove it: <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository>
+Follow the instructions here to completely remove it: <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository>.
+If it doesn't make sense, ask Sasha or someone else running Linux to do this, then delete your local repo and clone from GitHub again.
+
+# Problems in using GitHub Desktop
+It may be necessary to run GitHub as an administrator to avoid problems accessing or editing files.
+
+1. Find the location of the file that runs GitHub Desktop (Windows key, GitHub, right-click, open location)
+2. Right-click on file, select Properties
+3. Select Advanced then check "Run as administrator"
+
+More info here <https://www.windowscentral.com/how-set-apps-always-run-administrator-windows-10> and elsewhere online.
 
 
