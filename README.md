@@ -67,6 +67,14 @@ See the [README.md file](https://github.com/sashahafner/R-template/blob/main/REA
 For sharing datasets, you can find an example structure in the [BMP-kinetics-paper-2022 repo](https://github.com/sashahafner/BMP-kinetics-paper-2022).
 Text files are probably best (comma-delimited, or "csv" are convenient) and variables should be defined, e.g., in README.md.
 
+## Ignoring some files
+It is common to include a .gitignore file in your repo to make sure Git ignores certain files.
+For example, R may create an .Rhistory or .RData file automatically.
+Depending on the program, sometimes a temporary backup file is created every time a file is opened. 
+Enter these files names or extensions in a text file called .gitignore in your repo to make sure they are ignored when you add or push files.
+You can find quite comprehensive templates to use as a starting point at this handy repo: <https://github.com/github/gitignore>.
+See [here](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) for more information on this topic.
+
 # Issues and Discussion
 Use GitHub issues through the "Issues" page for each repo to document and discuss any type of problem related to a repo you contribute to.
 The basic idea (remember the code development roots of GitHub) is that an issue is identified, documented, and progress on addressing it is documented all under an issue.
