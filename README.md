@@ -111,7 +111,7 @@ Follow the instructions here to completely remove it: <https://docs.github.com/e
 If it doesn't make sense, ask Sasha or someone else running Linux to do this, then delete your local repo and clone from GitHub again.
 
 # Problems in using GitHub Desktop
-It may be necessary to run GitHub as an administrator to avoid problems accessing or editing files.
+On Windows, it may be necessary to run GitHub as an administrator to avoid problems accessing or editing files.
 
 1. Find the location of the file that runs GitHub Desktop (Windows key, GitHub, right-click, open location)
 2. Right-click on file, select Properties
