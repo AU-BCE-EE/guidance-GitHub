@@ -83,6 +83,8 @@ On GitHub, that will show up like this:
 
 ![image](https://user-images.githubusercontent.com/35272876/229759816-82f71b3d-1976-4ab5-81a8-c0979beaba18.png)
 
+You can add your AU email address at the end of <https://au.dk/> to get a short link to your AU PURE page.
+
 Public repos should typically include a description of the repo contents, perhaps installation instructions, and maybe details on software required for use of repo contents. 
 Here are some examples:
 
