@@ -67,6 +67,29 @@ See the [README.md file](https://github.com/sashahafner/R-template/blob/main/REA
 For sharing datasets, you can find an example structure in the [BMP-kinetics-paper-2022 repo](https://github.com/sashahafner/BMP-kinetics-paper-2022).
 Text files are probably best (comma-delimited, or "csv" are convenient) and variables should be defined, e.g., in README.md.
 
+## README file
+Each repo should have a file named README.md or similar for explaining the repo to users. 
+For private repos (see Repo access section above), the file should have enough information for AU-BCE-EE admin to figure out what who is responsible for the repo and what it is used for.
+For public repos, more detail is typically needed. 
+In either case, add a Maintainer section with something like this:
+
+```
+# Maintainer
+Sasha D. Hafner.
+Contact information here: <https://au.dk/sasha.hafner@bce>.
+```
+
+On GitHub, that will show up like this:
+
+![image](https://user-images.githubusercontent.com/35272876/229759816-82f71b3d-1976-4ab5-81a8-c0979beaba18.png)
+
+Public repos should typically include a description of the repo contents, perhaps installation instructions, and maybe details on software required for use of repo contents. 
+Here are some examples:
+
+* <https://github.com/AU-BCE-EE/Hafner-2023-bls-wt-comp>
+* <https://github.com/AU-BCE-EE/STM-applications>
+* <https://github.com/sashahafner/BMP-kinetics-paper-2022/blob/main/README.md>
+
 ## Ignoring some files
 It is common to include a .gitignore file in your repo to make sure Git ignores certain files.
 For example, R may create an .Rhistory or .RData file automatically.
