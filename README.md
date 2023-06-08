@@ -83,9 +83,9 @@ On GitHub, that will show up like this:
 
 ![image](https://user-images.githubusercontent.com/35272876/229759816-82f71b3d-1976-4ab5-81a8-c0979beaba18.png)
 
-You can add your AU email address at the end of <https://au.dk/> to get a short link to your AU PURE page.
+Note that it is part of your AU email address at the end of <https://au.dk/> that gives you the correct link, so if you use initials it would be e.g., <https://au.dk/jk@bce>.
 
-Public repos should typically include a description of the repo contents, perhaps installation instructions, and maybe details on software required for use of repo contents. 
+Public repos should typically include a description of the repo contents, perhaps installation instructions, and maybe details on software required for use of repo contents. For repos that have data analysis for a paper, it is a good idea to include details on exactly where paper results came from (it is easy to forget). 
 Here are some examples:
 
 * <https://github.com/AU-BCE-EE/Hafner-2023-bls-wt-comp>
