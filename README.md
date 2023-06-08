@@ -51,7 +51,7 @@ In the table above "added" means a user has been added as a collaborator to a re
 (Note that this default behavior of no access to private repos by members can be changed.
 We (owners) have taken a conservative approach for now at least.)
 
-To grant someone access, click "Settings" at the top right of a repo page, and then "Access":
+To grant someone access, click "Settings" at the top right of a repo page, then "Collaborators and teams", click the green "Add people" (or teams) button the right, and finally search for people with the user names above or email addresses:
 
 ![image](https://user-images.githubusercontent.com/35272876/206227003-3fdc3dd5-641d-4fcd-845f-54e0d67888b3.png)
 
