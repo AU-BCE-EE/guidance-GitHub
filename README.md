@@ -35,6 +35,7 @@ You can always change the name later (see section on this topic below).
 ## Repo access
 New repos should generally be created as *private*, and then shared with the public by changing to *public* later (if appropriate--not all repos will ultimately be made public).
 AU-BCE-EE members only have access to public AU-BCE-EE repos or repos they have been granted access to. 
+(This is set by the admin team, and could be changed so that all members have access to all repos. But we opted for this safer approach to minimize the risk of accidentally sharing private repo contents.)
 AU-BCE-EE owners have write (really admin) access to all of this account's repos.
 Regardless of whether you are working with owners or other members, it makes sense to explicitly add repo collaborators.
 See the table below for more information.
