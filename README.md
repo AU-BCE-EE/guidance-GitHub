@@ -9,7 +9,7 @@ AU-BCE-EE members can always get help by sending a message to the "admin" team o
 Email [Sasha](mailto:sasha.hafner@bce.au.dk) or other team members or send a notification to the admin team by tagging ("mentioning") `@AU-BCE-EE/Admin` in any issue or discussion.
 
 # Members
-Current (7 December 2022) members of this account are listed below.
+Current (24 January 2024) members of this account are listed below.
 You can add any member to a repo using their user name, or add everyone by adding the team "members".
 
 | Name                   | User name       |
@@ -22,6 +22,8 @@ You can add any member to a repo using their user name, or add everyone by addin
 | Marcel Buehler         | mabuehler       |
 | Anna Holm Støckler     | Stoeckler       |
 | Anders Peter Adamsen   | anders-adamsen  |
+| Anne Mortensen         | AnneMortensen   |
+| Sara Sørensen          | sarabjerre97    |
 | Sasha D. Hafner        | sashahafner     |
 
 You can tag any member in an issue, discussion, or comment with their user name, e.g., `@sashahafner`, or all members using `@AU-BCE-EE/members`.
