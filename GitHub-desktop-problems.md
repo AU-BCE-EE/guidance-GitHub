@@ -1,6 +1,6 @@
-# Problems in using GitHub Desktop
+# Problems using GitHub Desktop
 
-On Windows, it may be necessary to run GitHub as an administrator to avoid problems accessing or editing files.
+On Windows, it may be necessary to run GitHub Desktop as an administrator to avoid problems accessing or editing files.
 
 1. Find the location of the file that runs GitHub Desktop (Windows key, GitHub, right-click, open location)
 2. Right-click on file, select Properties
