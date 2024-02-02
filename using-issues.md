@@ -19,15 +19,9 @@ See issue #9 as well.
 
 will show up like this on the issues page:
 
-We need to include info on Markdown somewhere in this guidance repo.
- 
-Here is a handy guide: https://www.markdownguide.org/basic-syntax/
+![image](https://github.com/AU-BCE-EE/GitHub-guidance/assets/35272876/893e10c0-f2c4-4dcf-81e9-ccc22c0e24cc)
 
-From @J-Kamp 
-
-See issue #9 as well.
-
-For more on Markdown see the guidance document here.
+For more on Markdown see the guidance document [here](https://github.com/AU-BCE-EE/GitHub-guidance/blob/main/markdown.md).
 
 Visibility of issues follows the repo in general but **it is good practice to think of discussion under issues as public**.
 
