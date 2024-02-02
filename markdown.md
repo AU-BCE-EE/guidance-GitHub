@@ -54,6 +54,8 @@ After processing, this plain text will be displayed like this:
 Regular text about something.
 
 ## Heading level 2
+Putting each sentence on a separate line is a good idea.
+That lets Git track changes more precisely.
 
 ### Heading level 3
 
@@ -81,11 +83,5 @@ or [links](https://www.markdownguide.org/basic-syntax/)
 See the link above for more details.
 One more thing that is useful: use three backtick quotes for code blocks:
 
-```
+![image](https://github.com/AU-BCE-EE/GitHub-guidance/assets/35272876/8add1e07-3e60-426a-8733-0da2affec5a5)
 
-\```
-x <- mean(1:3)
-x / 2
-\```
-
-```
