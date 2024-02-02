@@ -1,4 +1,7 @@
 # Guidance on creating a paper repository 
+In the Environmental Engineering section we now typically have a designated repo for each paper we publish.
+The repo is a place to include all data, scripts, and output associated with the paper.
+It allows readers or our future self access and understand the data, analysis, and results.
 
 # Initial steps
 1. Create the new repo based on [this template](https://github.com/AU-BCE-EE/template-paper.git). To do that, browse to [AU-BCE-EE repositories](https://github.com/orgs/AU-BCE-EE/repositories), click "New repository", and select "template-paper" from the list.
