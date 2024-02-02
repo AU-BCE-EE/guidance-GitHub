@@ -1,17 +1,20 @@
 # Using Git and GitHub
 GitHub is a website and service that we in the Environmental Engineering section use for sharing and collaborating on software, data, and data processing code.
 Git is a tool for computer code version control.
-The two work together very nicely.
-Both were originally created for software development, but are nearly perfect for working with anything that primarily consists of plain text files.
+They are commonly used together, but can also be used separately.
+Both were originally created for software development, but together are nearly perfect for working with anything that primarily consists of plain text files.
 
 # An example application
 Our work shared through GitHub is organized into "repos", which is short for repositories.
 The <https://github.com/AU-BCE-EE/Hafner-2023-bls-wt-comp> repo is a typical application.
+It could be called a "research compendium", and it contains all the data, code, and output associated with a research paper.
 It was developed by three of us in the section working together on a paper.
-We used it to share the measurement data, model results, and results of data visualization and analysis.
+We used it to share the measurement data, model results, and results of data visualization and analysis with each other, to collaborate on these files, and now to share it with the public, all through one repo.
+
+How did we do it?
 With some version of Git running locally, each of us had a local copy (on our computer drive) of all the repo files, and could edit or add to any part, (usually) avoiding file synchronization conflicts.
 Every step we took is documented in the [commit history](https://github.com/AU-BCE-EE/Hafner-2023-bls-wt-comp/commits/main/), and any of these changes could be "reverted", or undone.
-When we finally finished the associate paper and it was published, we updated the README.md file that we include in every repo with the citation and a link, and created another [release](https://github.com/AU-BCE-EE/Hafner-2023-bls-wt-comp/releases), which is just a clear way to present a particular point in the repo time as particularly meaningful.
+When we finally finished the associated paper and it was published, we updated the README.md file that we include in every repo with the paper citation and a link, and created another [release](https://github.com/AU-BCE-EE/Hafner-2023-bls-wt-comp/releases), which is just a clear way to present a particular point in the repo time as particularly meaningful.
 In this case the latest release is associated with the published paper, and because we made the repo public, any reader of the paper could download our measurements, run our R and Matlab scripts, and repeat or tweak what we did.
 This makes for "reproducible research".
 
@@ -21,7 +24,7 @@ Section members who want to work in GitHub need to:
 1. Create a GitHub account
 2. Install some version of Git locally
 
-All local work can be done using the command line.
+All local work can be done using the command line, and a search online can tell you how to install command-line git.
 But for Windows and Mac OS, GitHub provides a free and quite good program called "GitHub Desktop", which has a graphical interface.
 It can be downloaded from [here](https://desktop.github.com/).
 
@@ -38,7 +41,17 @@ Then, the basic workflow is:
 
 # When and what to commit
 The point of commits is to describe what you did and to provide a checkpoint that could be revisited at any time.
-So try to use a good commit message, and to group together related changes.
+So try to group together related changes.
+At a minimum, a commit should be made at the end of the day unless a repo has only one contributor (no collaborators).
+But it is inconvenient and not very useful to make many small commits.
+Ideally, a commit would be made after some significant change is made, e.g., new measurements are used, statistical analysis approach is changed, figure captions are fixed.
+But in practice it is sometimes difficult to group work into discrete consistent packages.
+No matter, with Git contributors can always see what changes were made in which files, by whom and when.
+
+# Viewing commit history
+There are multiple ways to see a repo's commit history, but directly through GitHub may be the best approach.
+Click "Commits" to go to a list of commits that can be browsed.
+Under each commit there are links to see changes or more.
 
 # File types
 Git and GitHub were built around plain text files.
