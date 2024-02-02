@@ -6,7 +6,7 @@ It allows readers or our future self access and understand the data, analysis, a
 # Initial steps
 1. Create the new repo based on [this template](https://github.com/AU-BCE-EE/template-paper.git). To do that, browse to [AU-BCE-EE repositories](https://github.com/orgs/AU-BCE-EE/repositories), click "New repository", and select "template-paper" from the list.
 2. Keep the new repo private, unless you are comfortable immediately and irreversibly sharing all its contents with the world.
-3. Create two issue in your new repo: 1. Finalize repo and 2. Create a release. Keep these issues open until the paper has been published and you have completed both of them.
+3. Create an issue in your new repo: Check the [paper-repos.md file](https://github.com/AU-BCE-EE/GitHub-guidance/blob/main/paper-repos.md). Keep this issue open until the paper has been published and you have completed all the steps listed in the sections below. Alternatively, it may be helful to create more specific issues based on the steps listed below.
 4. Edit this README.md file, including deleting any notes to you (new repo creator).
 
 # Repo use
