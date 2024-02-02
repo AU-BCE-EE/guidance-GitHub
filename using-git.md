@@ -1,4 +1,4 @@
-# Using for Git and GitHub
+# Using Git and GitHub
 GitHub is a website and service that we in the Environmental Engineering section use for sharing and collaborating on software, data, and data processing code.
 Git is a tool for computer code version control.
 The two work together very nicely.
