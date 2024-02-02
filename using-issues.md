@@ -19,6 +19,14 @@ See issue #9 as well.
 
 will show up like this on the issues page:
 
+We need to include info on Markdown somewhere in this guidance repo.
+ 
+Here is a handy guide: https://www.markdownguide.org/basic-syntax/
+
+From @J-Kamp 
+
+See issue #9 as well.
+
 For more on Markdown see the guidance document here.
 
 Visibility of issues follows the repo in general but **it is good practice to think of discussion under issues as public**.
