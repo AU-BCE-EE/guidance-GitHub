@@ -1,4 +1,7 @@
 # Repository creation
+This guide is on creating a new repo.
+It is meant to be a general guide.
+For paper repos in particular, be sure to check out the [paper-repos guide](https://github.com/AU-BCE-EE/GitHub-guidance/blob/main/paper-repos.md).
 
 # Getting started
 Create a new repo by browing to [AU-BCE-EE repositories](https://github.com/orgs/AU-BCE-EE/repositories) and clicking "New repository".
@@ -35,6 +38,7 @@ To grant someone access, click "Settings" at the top right of a repo page, then 
 # File organization
 Development of templates (or at least more detailed guidelines) is an important task that many of us members will need to contribute to in the coming months.
 For now, consider using the [R-template repo](https://github.com/sashahafner/R-template) for any R-based project. 
+See the [paper-repos guide](https://github.com/AU-BCE-EE/GitHub-guidance/blob/main/paper-repos.md) and [paper repo template](https://github.com/AU-BCE-EE/template-paper) for some suggestions for paper repos.
 While it might show a different approach than what you are used to, this structure seems to work well.
 You can actually create a new repo directly from it with the "Use this template" button at the top right:
 
@@ -69,6 +73,8 @@ Here are some examples:
 * <https://github.com/AU-BCE-EE/Hafner-2023-bls-wt-comp>
 * <https://github.com/AU-BCE-EE/STM-applications>
 * <https://github.com/sashahafner/BMP-kinetics-paper-2022/blob/main/README.md>
+
+Also see the guidance for paper repos: <https://github.com/AU-BCE-EE/GitHub-guidance/blob/main/paper-repos.md>
 
 # Ignoring some files
 It is common to include a .gitignore file in your repo to make sure Git ignores certain files.
