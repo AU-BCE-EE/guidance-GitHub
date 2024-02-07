@@ -1,14 +1,18 @@
 # Using Git and GitHub
-GitHub is a website and service that we in the Environmental Engineering section use for sharing and collaborating on software, data, and data processing code.
 Git is a tool for computer code version control.
-They are commonly used together, but can also be used separately.
-Both were originally created for software development, but together are nearly perfect for working with anything that primarily consists of plain text files.
+GitHub is a website and service that works with Git repositories.
+They are commonly used together.
+Both were originally created for work on software development, but together are nearly perfect for collaborating on anything that contains text files.
+In the Environmental Engineering Section we use them for
+
+* sharing files within the section and with the public
+* collaborating on data analysis and model development
 
 # An example application
-Our work shared through GitHub is organized into "repos", which is short for repositories.
+All work shared through GitHub is organized into "repos", which is short for repositories.
 The <https://github.com/AU-BCE-EE/Hafner-2023-bls-wt-comp> repo is a typical application.
 It could be called a "research compendium", and it contains all the data, code, and output associated with a research paper.
-It was developed by three of us in the section working together on a paper.
+The repo contents were developed by three of us in the section working together on a paper.
 We used it to share the measurement data, model results, and results of data visualization and analysis with each other, to collaborate on these files, and now to share it with the public, all through one repo.
 
 How did we do it?
