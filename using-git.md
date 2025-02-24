@@ -32,8 +32,6 @@ All local work can be done using the command line, and a search online can tell 
 But for Windows and Mac OS, GitHub provides a free and quite good program called "GitHub Desktop", which has a graphical interface.
 It can be downloaded from [here](https://desktop.github.com/).
 
-Be sure to save your local files to a logical location--this may be different from the default proposed by GitHub Desktop!
-
 # Basic workflow
 Once you have been added to a repo by the owner, or have created your own repo through GitHub, you need to "clone" it, to get a local copy of its files.
 This only needs to be done once.
@@ -75,3 +73,14 @@ Disadvantages include a lack of formatting and slightly more difficulty in editi
 # Editing files through a browser
 Most file edits are done locally, using whatever software you prefer, e.g., Notepad++ for Python scripts and Excel for csv files.
 But by clicking the pen or pencil button at the top right on GitHub pages that display file contents, it is possible to edit files directly in GitHub through your browser.
+
+# Location of local repos
+Be sure to save your local files to a logical location--this may be different from the default proposed by GitHub Desktop! For starters, do not choose a location that is synchronized by OneDrive.
+OneDrive and Git are two different approaches and they do not work well together.
+As long as you regularly push to GitHub, you do not need a separate version backed up in OneDrive.
+If you work on different machines, simply pull the latest version from the remote repo.
+
+The default directory for storing local repos on your machine depends on the last location you selected.
+The "Choose..." button at the lower right in this window is used to select a location:
+![image](https://github.com/user-attachments/assets/127972ff-fd1c-4f47-b535-bb8a2db82209)
+
