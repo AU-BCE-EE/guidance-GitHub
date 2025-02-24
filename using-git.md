@@ -76,7 +76,7 @@ But by clicking the pen or pencil button at the top right on GitHub pages that d
 
 # Location of local repos
 Be sure to save your local files to a logical location--this may be different from the default proposed by GitHub Desktop! For starters, do not choose a location that is synchronized by OneDrive.
-OneDrive and Git are two different approaches and they do not work well together.
+OneDrive and Git are two different approaches and they do not work well together (see <https://stackoverflow.com/a/74265698/16958518> or similar opinions).
 As long as you regularly push to GitHub, you do not need a separate version backed up in OneDrive.
 If you work on different machines, simply pull the latest version from the remote repo.
 
