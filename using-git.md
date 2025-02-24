@@ -32,6 +32,8 @@ All local work can be done using the command line, and a search online can tell 
 But for Windows and Mac OS, GitHub provides a free and quite good program called "GitHub Desktop", which has a graphical interface.
 It can be downloaded from [here](https://desktop.github.com/).
 
+Be sure to save your local files to a logical location--this may be different from the default proposed by GitHub Desktop!
+
 # Basic workflow
 Once you have been added to a repo by the owner, or have created your own repo through GitHub, you need to "clone" it, to get a local copy of its files.
 This only needs to be done once.
