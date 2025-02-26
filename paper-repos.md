@@ -29,5 +29,5 @@ Complete these steps when you are ready to submit your paper.
 2. Check, address, and close all remaining issues. (If there is important information in some issue even though it is actually resolved, you could move the relevant text to "discussions" instead.)
 3. Create a new release, with a helpful description.
 
-# If you make corrections
-If you make changes to any of the files, you should create a new release and in the associated description, make it clear that the new release differs from the work presented in the paper (e.g., in the README.md file and release description).
+# If you make changes
+If you make changes to any of the files, such as an update or correction, you should create a new release and in the associated description, make it clear that the new release differs from the work presented in the paper (e.g., in the README.md file and release description and by assigning a new version number).
