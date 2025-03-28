@@ -37,11 +37,16 @@ Once you have been added to a repo by the owner, or have created your own repo t
 This only needs to be done once.
 Then, the basic workflow is:
 
-1. "Pull" the latest version of the files from the remote repo (at GitHub) with `$ git pull` in a command line shell, or by clicking the "Pull origin" button in GitHub Desktop. This will update the local files on your computer.
-2. Work on the files as you normally would, adding or editing scripts, adding data files, creating analysis output.
-3. "Add" the changes (including edits, new files, and deleted files) to the Git "index" with `$ git add filename.csv` in a command line shell, or in GitHub Desktop, by checking the box to the left of the change. 
-4. "Commit" the changes you previously added with `$ git commit -m 'briefly describe the changes here'` in a shell, or using the "Summary" and "Description" field in GitHub Desktop and clicking the blue "Commit to main" button. Changes shold be, ideally, grouped together so commits are mainly on one topic. See below for more discussion on this.
-5. "Push" your commit or commits to the remote repo, i.e., to GitHub using the blue "Push origin" button. Once pushed collaborators can "pull" your changes so they are working on the same version.
+1. "**Pull**" the latest version of the files from the remote repo (at GitHub) with `$ git pull` in a command line shell, or by clicking the "Pull origin" button in GitHub Desktop. This will update the local files on your computer.
+2. **Work** on the files as you normally would, adding or editing scripts, adding data files, creating analysis output.
+3. "**Add**" the changes (including edits, new files, and deleted files) to the Git "index" with `$ git add filename.csv` in a command line shell, or in GitHub Desktop, by checking the box to the left of the change. 
+4. "**Commit**" the changes you previously added with `$ git commit -m 'briefly describe the changes here'` in a shell, or using the "Summary" and "Description" field in GitHub Desktop and clicking the blue "Commit to main" button. Changes shold be, ideally, grouped together so commits are mainly on one topic. See below for more discussion on this.
+5. "**Push**" your commit or commits to the remote repo, i.e., to GitHub using the blue "Push origin" button or `$ git push`. Once pushed collaborators can "pull" your changes (step 1 above) so they are working on the same version.
+
+For details on the two different approaches, GitHub Desktop and command-line git, see one of these:
+
+* [GitHub Desktop](https://github.com/AU-BCE-EE/guidance-GitHub/blob/main/github-desktop.md)
+* [command-line git](https://github.com/AU-BCE-EE/guidance-GitHub/blob/main/command-line-git.md)
 
 # When and what to commit
 The point of commits is to describe what you did and to provide a checkpoint that could be revisited at any time.
