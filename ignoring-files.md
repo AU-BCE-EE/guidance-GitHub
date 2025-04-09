@@ -5,6 +5,11 @@ You can find templates for different types of repos here: <https://github.com/gi
 And GitHub will ask if you want to select and include a template when you create a new repo.
 Usually it makes sense to start with the most relevant template and then edit it over time if needed.
 
+It is easiest to set up a .gitignore file at the start, when creating a repo.
+If you want it to apply to files that are already present and committed, you must first delete the files and commit.
+Then create or update .gitignore and commit.
+The next time the files are created they will be ignored.
+
 # Related guidance
 This topic is discussed in:
 * [repo-creation.md](https://github.com/AU-BCE-EE/GitHub-guidance/blob/main/repo-creation.md)
