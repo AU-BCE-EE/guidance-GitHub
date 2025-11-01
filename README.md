@@ -11,6 +11,7 @@ The main ones are listed below, but any can be viewed by clicking on their names
 * [using-git.md](https://github.com/AU-BCE-EE/GitHub-guidance/blob/main/using-git.md) has instructions for users who are new to Git and GitHub
 * [repo-creation.md](https://github.com/AU-BCE-EE/GitHub-guidance/blob/main/repo-creation.md) explains how to get started with a new repo
 * [paper-repos](https://github.com/AU-BCE-EE/GitHub-guidance/blob/main/paper-repos.md) describes our standard procedure for repos or "research compendia" associated with papers
+* [best-practice](https://github.com/AU-BCE-EE/GitHub-guidance/blob/main/best-practice.md) lists some best-practice tips for file and directory names (and probably more later)
 
 # Getting more help
 AU-BCE-EE members can always get help by sending a message to the "admin" team or any member by email: <https://github.com/orgs/AU-BCE-EE/teams/admin>.
