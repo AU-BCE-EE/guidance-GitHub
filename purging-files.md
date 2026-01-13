@@ -11,12 +11,18 @@ Open up a shell, navigate to the local repo location, and run:
 ```
 git rm --cached exact/path/to/file.csv
 git commit --amend
-git push
 ```
 
 Make sure the path is correct!
 
-Confirm it is gone with:
+Then push the amended commit:
+
+```
+git push          # if the commit was never pushed originally
+git push --force  # if the commit was already pushed
+```
+
+Confirm the file is gone with:
 
 ```
 git log --all -- exact/path/to/file.csv
@@ -24,29 +30,30 @@ git log --all -- exact/path/to/file.csv
 
 # Option 2: File was in an earlier commit
 
-This is a bit trickier.
+This is a bit trickier and it rewrites your repo history.
 
-1. Make a copy of your local repository. This operation could destroy everything. Include the hidden .git directory unless you do not care about the history.
+1. Make a full backup of your local repository. The purging operation cannot be undone. Include the hidden .git directory unless you do not care about the history.
 2. Install the git filter-repo tool with:
     ```
     brew install git-filter-repo        # macOS
     sudo apt install git-filter-repo    # Debian/Ubuntu
     ```
-3. Open up a shell, navigate to the local repo location, and run:
+3. Open up a shell, navigate to the local repo location, and run the following to get the remote URL, because it will be removed in a following step:
     ```
     git remote -v
     ```
-4. Then run:
+    You will scroll up and copy it later.
+4. Then run this to remove the file from all commits:
     ```
     git filter-repo --path exact/path/to/file.csv --invert-paths
     ```
-    Be sure of the path.
-5. Run:
+    Be absolutely sure of the path!
+5. Add the remove URL back:
     ```
     git remote add origin <repo_url>
     ```
     where `<repo_url>` is the URL returned in step 3 (or copied from your GitHub page).
-6. Force-push the cleaned history with:
+6. Force-push the cleaned history:
     ```
     git push origin --force --all
     git push origin --force --tags
@@ -60,4 +67,7 @@ This is a bit trickier.
     ```
     If you see only one commit, got to option 1 above.
     If you see more than one, go to 2.
+
+# Next step
+If it makes sense, use your `.gitignore` file to prevent this file from ever being added to a commit again.
 
