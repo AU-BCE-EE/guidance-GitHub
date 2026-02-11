@@ -52,7 +52,7 @@ From Explorer, you can open the file however you prefer.
 I have opened one of the files in a text editor and fixed some of the text, and saved it.
 
 ## 3. Add and commit
-Before commiting, let's see what git stays with `git status`.
+Before commiting, let's see what git says with `git status`.
 
 ![image](https://github.com/user-attachments/assets/835582b4-d450-4507-b4b8-7e8b88b5a6b4)
 
