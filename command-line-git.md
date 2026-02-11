@@ -71,15 +71,21 @@ Now collaborators can start at step 1 above.
 
 ![image](https://github.com/user-attachments/assets/99dcb263-8402-44d2-bd72-4019ea96ae6a)
 
-# Installing Git
+# Installing Git and authentication
 Install Git from here: <https://git-scm.com/install/windows>.
+
+Then open PowerShell, `cd` to the place where you want to store local repos, and get started!
+You do need to set up authentication *once* to pull private repos or to push any work to GitHub.
+
+1. Create a personal access token (PAT) by following the information here: <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token>.
+2. Try `git clone . . .` (see below) and enter your GitHub user name and PAT (*not* your GitHub password--that will no longer work). 
 
 # Cloning an existing repo
 To clone an existing repo, browse to its GitHub page, click the green "Code" button, then HTTPS (usually the easiest for Windows), and copy the repo URL that is shown, e.g., 
 
 <img width="1151" height="345" alt="image" src="https://github.com/user-attachments/assets/4489d789-ce58-433b-b014-f11824440501" />
 
-Open PowerShell, browse to the place where you store all your repos with `cd`, and then enter
+Open PowerShell, browse to the place where you store all your repos with `cd`.
 
 ```
 git clone repo_URL
