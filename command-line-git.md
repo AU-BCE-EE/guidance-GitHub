@@ -5,7 +5,7 @@ It can be faster (type a few lines instead of a lot of mouse clicks and typing) 
 Command-line operations can be really powerful and quick on all operating systems, so git can be a good way to get started. 
 Plus, you can impress coworkers by regularly doing work at the command line!
 
-# A demo
+# Typical workflow - a demo
 We use git like this.
 First, open up a command-line interface and browse to your repo directory.
 On Windows, Power Shell is the interface of choice.
@@ -22,7 +22,7 @@ The whole time, I am using the Tab key for autocompletion--it saves a lot of tim
 So I typed `cd cour` and then hit Tab once or twice to actually get `cd .\course-comp-alg-2025\`. 
 Super fast.
 
-## 0. Check
+## 1. Check
 We should check the current local repo status with `git status`.
 That will tell us if we have changes that need to be sorted out before pulling.
 ![image](https://github.com/user-attachments/assets/0d1a21c7-dc8b-4b2e-9418-26e63beecab9)
@@ -34,7 +34,7 @@ Now `status` shows this:
 
 ![image](https://github.com/user-attachments/assets/a2aeba35-6ecb-4c5f-ae70-ee9c9a78bc15)
 
-## 1. Pull
+## 2. Pull
 We could do `git fetch` then again `git status` before `git pull` but skipping the first two steps is almost always OK.
 So let's try it.
 
@@ -42,16 +42,16 @@ So let's try it.
 
 Git tells us we have two new files now.
 
-## 2. Work
+## 3. Work
 To make some changes, I am going to open the local repo in Windows File Explorer.
-Yes, you could find and click on a shortcut, but the quickest option is to type this--remembering autocomplete!
+Yes, you could and click on a shortcut for Windows File Explorer, but the quickest option is to type this--remembering autocomplete!
 
 ![image](https://github.com/user-attachments/assets/3fa76a3c-e52d-46bf-a48c-b7482d508de2)
 
 From Explorer, you can open the file however you prefer.
 I have opened one of the files in a text editor and fixed some of the text, and saved it.
 
-## 3. Add and commit
+## 4. Add and commit
 Before commiting, let's see what git says with `git status`.
 
 ![image](https://github.com/user-attachments/assets/835582b4-d450-4507-b4b8-7e8b88b5a6b4)
@@ -64,13 +64,40 @@ I will use the first option.
 Then we check, to make sure everything looks OK, and finally commit, using the `-m` option to directly add a short commit message within quotes.
 ![image](https://github.com/user-attachments/assets/9870b1ef-a9b8-4303-b3a1-c83469c048d5)
 
-## 4. Push
+## 5. Push
 Finally, push to the remote repo with `git push`. 
 And that's it!
 Now collaborators can start at step 1 above.
 
 ![image](https://github.com/user-attachments/assets/99dcb263-8402-44d2-bd72-4019ea96ae6a)
 
-# Other tasks
-* Cloning a repo
-* Merge issues
+# Installing Git
+Install Git from here: <https://git-scm.com/install/windows>.
+
+# Cloning an existing repo
+To clone an existing repo, browse to its GitHub page, click the green "Code" button, then HTTPS (usually the easiest for Windows), and copy the repo URL that is shown, e.g., 
+
+<img width="1151" height="345" alt="image" src="https://github.com/user-attachments/assets/4489d789-ce58-433b-b014-f11824440501" />
+
+Open PowerShell, browse to the place where you store all your repos with `cd`, and then enter
+
+```
+git clone repo_URL
+```
+
+where `repo_URL` is the one you got from the GitHub page, e.g.,
+
+```
+git clone git@github.com:AU-BCE-EE/tbr_sim.git
+```
+
+Here is what all this looks like in PowerShell:
+
+<img width="1104" height="341" alt="image" src="https://github.com/user-attachments/assets/0a4881ce-fb26-45eb-9cc6-54dea5246812" />
+
+Now you have a local version of the repo, and can go about using or editing it, like any other local repo. 
+
+Note that if it is a private repo you want, or if you want to push changes to the remote repo (the version on GitHub), you will have to authenticate first.
+On Windows the HTTPS approach is probably easier than SSH.
+
+
